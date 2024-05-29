@@ -15,7 +15,7 @@ app.use(userRoutes);
 // Error Handling
 app.use(require('./utils/errorHandler'));
 
-const mongoURI = 'mongodb://127.0.0.1:27017/task';
+const mongoURI = 'mongodb+srv://karanatworksecound:FNsUVvK89kPjbKko@cluster0.g5f9ldp.mongodb.net/';
 mongoose.connect(mongoURI, {
 
 })
